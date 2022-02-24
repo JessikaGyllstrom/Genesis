@@ -1,0 +1,20 @@
+
+.header {
+    max-height: 20vh;
+    padding: 3rem 5rem;
+    
+    .header__logo img {
+        max-height: 15px;
+    }
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+.header__links a {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 15px;
+    color: black;
+}

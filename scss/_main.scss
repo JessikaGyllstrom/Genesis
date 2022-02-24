@@ -1,0 +1,29 @@
+$font-highlight: #4A4FF2;
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+
+    .main__text {
+        width: 30%;
+        font-style: normal;
+        font-size: 20px;
+    }
+    .main__text p,
+    .main__text span {
+        color: $font-highlight;
+    }
+    .main__quote {
+        display: flex;
+        width: 20%;
+        margin-left: auto;
+        align-items: flex-end;
+        font-size: 15px;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+}
+.main__text p {
+    font-size: 15px;
+}

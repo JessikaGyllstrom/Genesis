@@ -1,0 +1,16 @@
+@use 'fonts.scss';
+
+@import 'main.scss';
+@import 'header.scss';
+@import 'main-grid.scss';
+@import 'textinfo';
+@import 'awardsgrid';
+@import 'footer';
+@import 'projects';
+@import 'contact';
+@import 'form';
+
+body {
+    padding: 0;
+    margin: 0;
+}

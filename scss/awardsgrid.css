@@ -1,0 +1,150 @@
+.awards__grid {
+  padding: 1rem 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  gap: 0px;
+  height: 100%;
+}
+
+.item-0 {
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 5;
+  grid-column-end: 4;
+}
+
+.item-1 {
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 3;
+  grid-column-end: 6;
+}
+
+.item-2 {
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 5;
+  grid-column-end: 6;
+}
+
+.item-3 {
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+  grid-row-end: 3;
+  grid-column-end: 8;
+}
+
+.item-4 {
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+  grid-row-end: 5;
+  grid-column-end: 8;
+}
+
+.item-5 {
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-column: 8;
+      grid-column-start: 8;
+  grid-row-end: 3;
+  grid-column-end: 9;
+}
+
+.item-6 {
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  -ms-grid-column: 8;
+      grid-column-start: 8;
+  grid-row-end: 5;
+  grid-column-end: 9;
+}
+
+.item-7 {
+  border-bottom: 2px solid  #D8D8D8;
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-row-end: 9;
+  grid-column-end: 4;
+}
+
+.item-8 {
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 7;
+  grid-column-end: 6;
+}
+
+.item-9 {
+  border-bottom: 2px solid  #D8D8D8;
+  -ms-grid-row: 7;
+      grid-row-start: 7;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-row-end: 9;
+  grid-column-end: 6;
+}
+
+.item-10 {
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+  grid-row-end: 7;
+  grid-column-end: 8;
+}
+
+.item-11 {
+  border-bottom: 2px solid  #D8D8D8;
+  -ms-grid-row: 7;
+      grid-row-start: 7;
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+  grid-row-end: 9;
+  grid-column-end: 8;
+}
+
+.item-12 {
+  border-top: 2px solid  #D8D8D8;
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  -ms-grid-column: 8;
+      grid-column-start: 8;
+  grid-row-end: 7;
+  grid-column-end: 9;
+}
+
+.item-13 {
+  border-bottom: 2px solid  #D8D8D8;
+  -ms-grid-row: 7;
+      grid-row-start: 7;
+  -ms-grid-column: 8;
+      grid-column-start: 8;
+  grid-row-end: 9;
+  grid-column-end: 9;
+}
+/*# sourceMappingURL=awardsgrid.css.map */

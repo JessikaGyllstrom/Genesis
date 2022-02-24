@@ -1,0 +1,36 @@
+.contact__form {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    width: 40%;
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.2rem;
+}
+.form-row > input {
+    padding: 0.2rem;
+    flex: 1;
+
+}
+input[type=submit] {
+    border: 0;
+    background-color: #4A4FF2;
+    box-shadow: none;
+    border: none;
+    color: white;
+    border-radius: 0%;
+    max-width: 80px;
+    min-height: 35px;
+    margin-top: 0.5rem;
+}
+input[type=text], 
+input[type=email] { 
+    background-color: transparent;
+    outline: none; 
+    border: none;
+    border-bottom: 1px solid #979797;
+    width: 100%;
+}

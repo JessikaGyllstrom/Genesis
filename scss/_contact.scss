@@ -1,0 +1,22 @@
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5rem;
+}
+.contact__text {
+    width: 40%;
+
+    .contact__text h2 {
+        font-size: 20px;
+    }
+}
+.contact__map__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact__map__image img{
+    display: flex;
+
+}

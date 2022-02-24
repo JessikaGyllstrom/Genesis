@@ -1,0 +1,30 @@
+.footer {
+    padding: 1rem 5rem;
+    display: flex;
+
+    .footer__logo {
+        width: 65%;
+        text-decoration: none;
+        color: inherit;   
+    }
+    .footer__links {
+        width: 20%;
+        text-align: center;
+    }
+    .footer__links a {
+        text-decoration: none;
+        color: inherit;
+        width: 20%;
+    }
+}
+.footer__logo img {
+    max-height: 15px;
+}
+.footer__icons {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+.footer__icons i {
+    color: black;
+}
