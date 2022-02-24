@@ -4,12 +4,21 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .main .main__text {
-  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-style: normal;
-  font-size: 20px;
+  font-size: 25px;
+  width: 40%;
 }
 .main .main__text p,
 .main .main__text span {
@@ -33,6 +42,30 @@
   font-size: 15px;
 }
 
+.main__text h4 {
+  line-height: 30px;
+  text-align: right;
+}
+
+.main__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.textinfo__linksfirst,
+.textinfo__linkslast {
+  opacity: 0.6;
+  line-height: 23px;
+}
+
+.textinfo__header__text {
+  width: 80%;
+  font-size: 22px;
+  line-height: 38px;
+}
+
 .header {
   max-height: 20vh;
   padding: 3rem 5rem;
@@ -53,13 +86,14 @@
 .header__links a {
   text-decoration: none;
   padding: 1rem;
-  font-size: 15px;
+  font-size: 18px;
   color: black;
 }
 
 .main__grid {
   width: 100%;
   min-height: 200vh;
+  margin-top: 4rem;
 }
 
 .main__gridcontainer {
@@ -70,7 +104,7 @@
   -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
   grid-template-columns: repeat(9, 1fr);
   gap: 15px;
-  padding: 1rem 2rem;
+  padding-top: 2rem;
 }
 
 .main__gridcontainer > *:nth-child(1) {
@@ -1343,6 +1377,32 @@
   -ms-grid-column: 15;
 }
 
+.awards__grid p {
+  opacity: 0.6;
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
+.awards__grid h5 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.awards__grid h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.awards__grid h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.awards__grid h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .item-0 {
   border-top: 2px solid #D8D8D8;
   -ms-grid-row: 1;
@@ -1510,7 +1570,8 @@
 }
 
 .footer {
-  padding: 1rem 5rem;
+  padding: 1rem 8rem;
+  margin-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1523,6 +1584,7 @@
 .footer .footer__links {
   width: 20%;
   text-align: center;
+  font-size: 18px;
 }
 .footer .footer__links a {
   text-decoration: none;
@@ -1718,4 +1780,5 @@ input[type=email] {
 body {
   padding: 0;
   margin: 0;
+  font-family: "Mulish", sans-serif;
 }

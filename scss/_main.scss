@@ -3,12 +3,15 @@ $font-highlight: #4A4FF2;
 .main {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
+    justify-content: center;
 
     .main__text {
-        width: 30%;
+        display: flex;
+        justify-content: center;
         font-style: normal;
-        font-size: 20px;
+        font-size: 25px;
+        width: 40%;
     }
     .main__text p,
     .main__text span {
@@ -26,4 +29,25 @@ $font-highlight: #4A4FF2;
 }
 .main__text p {
     font-size: 15px;
+}
+.main__text h4 {
+    line-height: 30px;
+    text-align: right;
+}
+.main__info {
+    display: flex;
+    width: 100%;
+}
+
+.textinfo__linksfirst, 
+.textinfo__linkslast {
+    opacity: 0.6;
+    line-height: 23px;
+
+}
+.textinfo__header__text {
+    width: 80%;
+    font-size: 22px;
+    line-height: 38px;
+
 }

@@ -1,5 +1,6 @@
 .footer {
-    padding: 1rem 5rem;
+    padding: 1rem 8rem;
+    margin-top: 5rem;
     display: flex;
 
     .footer__logo {
@@ -10,6 +11,7 @@
     .footer__links {
         width: 20%;
         text-align: center;
+        font-size: 18px;
     }
     .footer__links a {
         text-decoration: none;

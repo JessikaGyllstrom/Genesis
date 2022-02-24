@@ -6,6 +6,27 @@
     gap: 0px;
     height: 100%;  
  }  
+ .awards__grid p {
+    opacity: 0.6;
+    width: 60%;
+    margin-bottom: 3rem;
+ }
+ .awards__grid h5 {
+    font-size: 15px;
+    font-weight: 300;
+}
+.awards__grid h4 {
+   font-size: 15px;
+   font-weight: 400;
+}
+.awards__grid h3 {
+   font-size: 18px;
+   font-weight: 600;
+}
+.awards__grid h3 {
+   font-size: 20px;
+   font-weight: 800;
+}
  .item-0 {
     border-top: 2px solid  #D8D8D8;
     grid-row-start: 1;
